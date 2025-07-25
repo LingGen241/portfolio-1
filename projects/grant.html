@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grant Portfolio - Grant Application Review System</title>
+    <link rel="stylesheet" href="../css/grant.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&family=Playfair+Display:wght@700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <img src="../img/logo.png" alt="Company Logo" class="logo-placeholder" style="height: 40px;">
+                <ul>
+                    <li><a href="../homepage.html">Home</a></li>
+                    <li><a href="../about.html">About</a></li>
+                    <li><a href="hris.html" class="active">Projects</a></li>
+                    <li><a href="../resume.html">Resume</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="projects">
+            <h2>CRM Grant Application Review System</h2>
+            <div class="date">April 2025 – June 2025</div>
+            <div class="role">Team Lead | Product Manager | UX Designer</div>
+            <ul>
+                <li>Directed the end-to-end development of a scalable CRM solution for Child’s Play, a global nonprofit
+                    supporting pediatric hospitals.</li>
+                <li>Led a cross-functional team to replace manual processes with a streamlined Airtable–Softr system,
+                    enhancing grant tracking, stakeholder engagement, and data hygiene.</li>
+                <li>Focused on intuitive UX, automation, and sustainability to support long-term organizational growth.
+                </li>
+            </ul>
+
+            <h3>The Problem</h3>
+            <ul>
+                <li>Manual grant management processes lead to redundant data submissions and reporting bottlenecks.</li>
+                <li>Inefficient communication workflows between hospitals and review teams hinder transparency.</li>
+                <li>Small teams managing approximately 200 hospital applications face significant administrative
+                    burdens.</li>
+            </ul>
+
+            <h3>Our Goals</h3>
+            <ul>
+                <li>Streamline the grant management process for small teams handling 200+ hospital applications.</li>
+                <li>Reduce administrative workload through automation of reminders and compliance checks.</li>
+                <li>Improve data accuracy and consistency across all stakeholder touchpoints.</li>
+            </ul>
+
+            <h3>Our Solution</h3>
+            <ul>
+                <li>Developed an integrated Airtable-Softr platform to automate and optimize grant application tracking
+                    and review.</li>
+                <li>Enabled real-time data sync between Softr hospital profiles and Airtable for consistent data.</li>
+                <li>Implemented automated email reminders and profile completeness checks to reduce manual oversight.
+                </li>
+            </ul>
+
+            <h3>Tools Used</h3>
+            <ul>
+                <li>Airtable (Database, CRM Backend)</li>
+                <li>Softr (Frontend platform, Workflow Automation)</li>
+                <li>Azure DevOps (Sprint tracking, Task Management)</li>
+                <li>Figma (UI/UX Prototyping)</li>
+                <li>Microsoft Excel (Legacy Data Migration)</li>
+            </ul>
+
+            <h3>Our Impact</h3>
+            <p>By implementing the Grant Application Review System, our team has empowered Child's Play to efficiently
+                manage grant applications for 200+ hospitals, reducing administrative overhead and improving data
+                hygiene. Automation of workflows like profile verification and reporting reminders allows hospitals to
+                focus on their mission, while reviewers benefit from enhanced decision-making tools. This project has
+                sharpened my skills in system design, stakeholder collaboration, and delivering scalable solutions that
+                support nonprofit growth.</p>
+
+            <!-- Embedding Feature Screenshots -->
+            <h3>Feature Screenshots</h3>
+            <div class="screenshot-container">
+                <img src="../img/feature-1.png" alt="Tabs Available to Switch">
+                <img src="../img/feature-2.png" alt="Manual Status Change">
+                <img src="../img/feature-3.png" alt="Update Payment Info">
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Huy Lam - Built with passion.</p>
+        <address>
+            <a href="mailto:example@email.com">Get in Touch</a> |
+            <a href="https://www.linkedin.com/in/huylam02102006/" target="_blank" rel="noopener">LinkedIn</a>
+        </address>
+    </footer>
+    <script>
+        document.querySelector('.nav-toggle').addEventListener('click', () => {
+            document.querySelector('.nav-menu').classList.toggle('active');
+            document.querySelector('.nav-toggle').classList.toggle('active');
+        });
+
+        // Dropdown toggle for mobile
+        document.querySelectorAll('.dropdown').forEach(item => {
+            item.addEventListener('click', (e) => {
+                if (window.innerWidth <= 768) {
+                    e.preventDefault();
+                    item.querySelector('.dropdown-content').classList.toggle('show');
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
