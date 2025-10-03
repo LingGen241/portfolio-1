@@ -1,11 +1,9 @@
-/* Reset default styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body with consistent gradient background */
 body {
     font-family: 'Poppins', sans-serif;
     color: #fff;
@@ -15,7 +13,6 @@ body {
     line-height: 1.7;
 }
 
-/* Header and navigation (matches homepage) */
 header {
     position: sticky;
     top: 0;
@@ -80,7 +77,6 @@ nav a:hover::after {
     width: 80%;
 }
 
-/* About hero section */
 .about-hero {
     padding: 4.5rem 2rem 2rem 2rem;
     max-width: 1100px;
@@ -98,7 +94,6 @@ nav a:hover::after {
     font-weight: 700;
 }
 
-/* Profile container and image (matches homepage card style) */
 .profile-container {
     display: flex;
     gap: 2.5rem;
@@ -134,7 +129,6 @@ nav a:hover::after {
     transform: scale(1.05) rotate(-2deg);
 }
 
-/* Upload button (matches homepage button style) */
 .upload-btn {
     display: block;
     margin: 1.2rem auto 0 auto;
@@ -174,7 +168,6 @@ nav a:hover::after {
     line-height: 1.8;
 }
 
-/* About details section (cards match homepage projects) */
 .about-details {
     padding: 3.2rem 2rem 2.5rem 2rem;
     max-width: 1100px;
@@ -235,7 +228,6 @@ nav a:hover::after {
     font-size: 1.3rem;
 }
 
-/* Footer styling (matches homepage) */
 footer {
     text-align: center;
     padding: 2rem 1rem;
@@ -255,7 +247,6 @@ footer a:hover {
     text-decoration: underline;
 }
 
-/* Responsive design */
 @media (max-width: 900px) {
     .about-content h1 {
         font-size: 2rem;
