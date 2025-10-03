@@ -1,11 +1,9 @@
-/* Reset default styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body with gradient background */
 body {
     font-family: 'Poppins', sans-serif;
     line-height: 1.7;
@@ -14,7 +12,6 @@ body {
     min-height: 100vh;
 }
 
-/* Header and navigation */
 header {
     position: sticky;
     top: 0;
@@ -54,7 +51,7 @@ nav a {
     transition: background 0.2s, color 0.2s;
     position: relative;
 }
-
+/* AI Suggested*/
 nav a::after {
     content: '';
     display: block;
@@ -64,20 +61,19 @@ nav a::after {
     transition: width 0.3s;
     margin: 0 auto;
 }
-
+/* AI Suggested*/
 nav a.active::after,
 nav a:hover::after {
     width: 80%;
 }
 
-nav a.active,
-nav a:hover {
+nav a.active, nav a:hover {
     background: #ff9a8b22;
     color: #ff9a8b;
 }
 
 
-
+/* AI Suggested*/
 .linkedin-btn {
     display: inline-block;
     padding: 0.8rem 2rem;
@@ -91,6 +87,7 @@ nav a:hover {
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
+/* AI Suggested*/
 .linkedin-btn::before {
     content: '';
     position: absolute;
@@ -111,33 +108,12 @@ nav a:hover {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
 }
 
-/* Featured projects with tilted cards */
 .featured-projects {
     padding: 4rem 2rem;
     max-width: 1200px;
     margin: 0 auto;
 }
-
-.featured-projects h2 {
-    font-family: 'Playfair Display', serif;
-    font-size: 2.5rem;
-    text-align: center;
-    margin-bottom: 3rem;
-    color: #fff;
-}
-
-.project-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 2rem;
-}
-
- Featured Works */ .featured-projects {
-     padding: 4rem 2rem 2rem 2rem;
-     max-width: 1200px;
-     margin: 0 auto;
- }
-
+/* AI Suggested*/
  .featured-projects h2 {
      font-family: 'Playfair Display', serif;
      font-size: 2.2rem;
@@ -152,7 +128,7 @@ nav a:hover {
      grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
      gap: 2.3rem;
  }
-
+/* AI Suggested*/
  .project-card {
      background: rgba(255, 255, 255, 0.08);
      backdrop-filter: blur(7px);
@@ -181,7 +157,7 @@ nav a:hover {
      margin-bottom: 1.2rem;
      font-size: 1.02rem;
  }
-
+/* AI Suggested*/
 .btn {
     display: inline-block;
     padding: 0.6rem 1.5rem;
@@ -197,7 +173,6 @@ nav a:hover {
     background: #ff9a8b;
 }
 
-/* Footer styling */
 footer {
     text-align: center;
     padding: 2rem;
@@ -219,7 +194,6 @@ footer a:hover {
     text-decoration: underline;
 }
 
-/* Responsive design */
 @media (max-width: 768px) {
     .nav-container {
         flex-direction: column;

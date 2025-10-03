@@ -1,11 +1,9 @@
-/* Reset default styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body with smooth gradient background */
 body {
     font-family: 'Poppins', sans-serif;
     color: #fff;
@@ -14,7 +12,6 @@ body {
     letter-spacing: 0.01em;
 }
 
-/* Header and navigation */
 header {
     position: sticky;
     top: 0;
@@ -33,7 +30,6 @@ header {
     align-items: center;
 }
 
-/* Logo */
 .logo {
     font-family: 'Playfair Display', serif;
     font-size: 2rem;
@@ -42,7 +38,6 @@ header {
     letter-spacing: 0.05em;
 }
 
-/* Navigation */
 nav ul {
     list-style: none;
     display: flex;
@@ -60,8 +55,7 @@ nav a {
     position: relative;
 }
 
-nav a.active,
-nav a:hover {
+nav a.active, nav a:hover {
     background: #ff9a8b22;
     color: #ff9a8b;
 }
@@ -76,14 +70,12 @@ nav a::after {
     margin: 0 auto;
 }
 
-nav a.active::after,
-nav a:hover::after {
+nav a.active::after, nav a:hover::after {
     width: 80%;
 }
 
 
 
-/* Hero section */
 .hero {
     display: flex;
     flex-direction: row;
@@ -131,7 +123,7 @@ nav a:hover::after {
     color: #e6e6e6;
     line-height: 1.6;
 }
-
+/* AI Suggested*/
 .linkedin-btn {
     display: inline-block;
     padding: 0.85rem 2.4rem;
@@ -153,7 +145,6 @@ nav a:hover::after {
     background: linear-gradient(90deg, #fecfef 0%, #ff9a8b 100%);
 }
 
-/* Featured Works */
 .featured-projects {
     padding: 4rem 2rem 2rem 2rem;
     max-width: 1200px;
@@ -222,7 +213,6 @@ nav a:hover::after {
     color: #23243a;
 }
 
-/* Footer styling */
 footer {
     text-align: center;
     padding: 2rem 1rem;
@@ -242,7 +232,6 @@ footer a:hover {
     text-decoration: underline;
 }
 
-/* Responsive design */
 @media (max-width: 900px) {
     .hero h1 {
         font-size: 2.1rem;

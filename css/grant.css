@@ -1,12 +1,10 @@
 
-/* Reset default styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body with portfolio's gradient background */
 body {
     font-family: 'Poppins', sans-serif;
     line-height: 1.7;
@@ -15,7 +13,6 @@ body {
     min-height: 100vh;
 }
 
-/* Header and navigation */
 header {
     position: sticky;
     top: 0;
@@ -55,8 +52,7 @@ nav a {
     position: relative;
 }
 
-nav a.active,
-nav a:hover {
+nav a.active, nav a:hover {
     background: #ff9a8b22;
     color: #ff9a8b;
 }
@@ -70,13 +66,11 @@ nav a::after {
     transition: width 0.3s;
     margin: 0 auto;
 }
-
-nav a.active::after,
-nav a:hover::after {
+/* AI Suggested*/
+nav a.active::after, nav a:hover::after {
     width: 80%;
 }
 
-/* Main content styling */
 main {
     padding: 2rem;
     max-width: 1200px;
@@ -124,7 +118,6 @@ li::before {
     font-size: 1.5rem;
 }
 
-/* Footer styling */
 footer {
     text-align: center;
     padding: 2rem;
@@ -146,7 +139,7 @@ footer a:hover {
     gap: 1rem;
     margin-top: 1rem;
 }
-
+/* AI Suggested*/
 .screenshot-container img {
     max-width: 45%;
     height: auto;
@@ -154,10 +147,7 @@ footer a:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Subheadings refinement */
-h2,
-h3,
-h4 {
+h2, h3, h4 {
     margin-top: 2.5rem;
     margin-bottom: 1.2rem;
     font-size: 2rem;
@@ -174,7 +164,6 @@ h4 {
     font-weight: 500;
 }
 
-/* Responsive design */
 @media (max-width: 768px) {
     .nav-container {
         flex-direction: column;
@@ -194,8 +183,7 @@ h4 {
         font-size: 2rem;
     }
 
-    .date,
-    .role {
+    .date, .role {
         text-align: center;
     }
     .screenshot-container img {
